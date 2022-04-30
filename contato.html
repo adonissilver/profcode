@@ -3,52 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula de Div</title>
 
-    <title>Contato</title>
+    
 </head>
+<body>
+    <div id="cabecalho">
+        <ul>
+            <li> <a href="index.html">Home</a>|</li>
+            <li><a href="musicas.html">Músicas</a>|</li>
+            <li><a href="aulas.html">Aulas</a>|</li>
+            <li><a href="contato.html">Contato</a></li> 
+        </ul>
+    </div>
 
-<body> 
+    <div id="menu">
+        <img src="pexels-ketut-subiyanto-4623528.jpg" height="540px">   
+  
+    </div>
+  
 
-    <header>
-        <div class="caixa">
+ 
+    <div id="principal">
+        <div class="container">
+            <form action="action_page.php">
+        
+            <label for="fname">Nome </label>
+            <input type="text" id="fname" name="firstname" placeholder="Nome">
+        
+            <br> 
+            <label for="Pais">País</label>
+            <select id="Pais" name="Pais">
+                <option value="australia">Brasil</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <br><br>
             
-            
-            <nav>
-                <ul id="menu">
-                    <li> <a href="index.html">Home</a>|</li>
-                    <li><a href="musicas.html">Músicas</a>|</li>
-                    <li></li><a href="aulas.html">Aulas</a>|</li>
-                    <li></li><a href="contato.html">Contato</a></li> 
-                </ul>
-            </nav>
-            
+            <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
+
+            <br><br>
+        
+            <input type="submit" value="Enviar">
+        
+            </form>
         </div>
-    </header>
+  </div>
 
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">Nome Completo</label>
-          <input type="text" id="fname" name="firstname" placeholder="Nome">
-      
-          
-      
-          <label for="Pais">País</label>
-          <select id="Pais" name="Pais">
-            <option value="australia">Brasil</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="Mensagem">Mensagem</label>
-          <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
-      
-          <input type="submit" value="Enviar">
-      
-        </form>
-      </div>
-</body> 
+
+    
+</body>
 </html>
+

@@ -1,11 +1,57 @@
-#menu{
-  display: flex;
-  font-size: 30px;color: aliceblue;
+#cabecalho{
+  height: 100px;
+  /*background-color: orange;*/
+ 
+  
+        
 }
+
+
+#menu{
+  height: 540px;
+  width: 361px;
+  
+  float: left;
+  /*background-color: green;*/
+  
+  
+  
+}
+
+#principal{
+  font-size: larger;
+  height: 540px;
+  width: 500px;
+  background-color: lightgray;
+  float: left;
+  
+}
+
+
+
+#lado{
+  height: 500px;
+  width: 200px;
+  background-color: lightblue;
+  float: right;
+  
+}
+
+
+
+
+#rodape{
+  height:100px ;
+  background-color: lightpink;
+  clear: both;
+}
+
+
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 40%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -32,7 +78,8 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  height: 540px;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 5px;
 }

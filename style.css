@@ -18,8 +18,13 @@
   
 }
 
+
+
+
+
 #principal{
-  font-size: larger;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
   height: 540px;
   width: 500px;
   background-color: lightgray;
@@ -30,13 +35,14 @@
 
 
 #lado{
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
   height: 500px;
   width: 200px;
   background-color: lightblue;
   float: right;
   
 }
-
 
 
 
